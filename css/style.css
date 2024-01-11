@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'From the Woods';
+    src: url('/graphics/FromtheWoods-Regular.woff2') format('woff2'),
+        url('/graphics/FromtheWoods-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    font-family: 'Open Sans', Times, serif;
+}
+
+h1 {
+    font-family: 'From the Woods';
+}
