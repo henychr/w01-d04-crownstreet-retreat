@@ -5,12 +5,27 @@
     font-weight: normal;
     font-style: normal;
     font-display: swap;
+    co
 }
 
 * {
     font-family: 'Open Sans', Times, serif;
+    text-align: center;
 }
 
 h1 {
     font-family: 'From the Woods';
+}
+
+main {
+    background-image: url("../graphics/bg.jpg");
+    background-size: 800px 200px;
+    background-repeat:repeat-y;
+    background-position:justify;
+    margin: 50px 300px;
+}
+
+footer {
+
+    margin: 50px 300px;
 }
