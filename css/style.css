@@ -63,14 +63,14 @@ h1 {
 }
 
 .bubbles {
-  margin:auto;
+  margin: 100px 20px;
   text-align: center;
   width: 25vw;
   
 }
 
 .bubbles__circle {
-  margin: auto;
+  margin: -50px auto;
   background-color: #4f6a13;
   width: 350px;
   height: 350px;
