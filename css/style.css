@@ -34,8 +34,8 @@ body {
 
 main {
   margin: auto;
-  text-align: center;
-}
+  width: 25vw;
+ }
 
 h1 {
   font-family: "From the Woods";
@@ -43,7 +43,6 @@ h1 {
 }
 
 footer {
-  margin: auto;
   text-align: center;
   background-color: #2d4823;
 }
@@ -64,13 +63,14 @@ h1 {
 }
 
 .bubbles {
-  margin: auto;
+  margin:auto;
   text-align: center;
+  width: 25vw;
+  
 }
 
 .bubbles__circle {
   margin: auto;
-  text-align: center;
   background-color: #4f6a13;
   width: 350px;
   height: 350px;
