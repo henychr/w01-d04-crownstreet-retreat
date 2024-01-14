@@ -1,31 +1,122 @@
+html {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 @font-face {
-    font-family: 'From the Woods';
-    src: url('/graphics/FromtheWoods-Regular.woff2') format('woff2'),
-        url('/graphics/FromtheWoods-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-    co
+  font-family: "From the Woods";
+  src: url("/graphics/FromtheWoods-Regular.woff2") format("woff2"),
+    url("/graphics/FromtheWoods-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 * {
-    font-family: 'Open Sans', Times, serif;
-    text-align: center;
+  font-family: "Open Sans", Times, serif;
+  font-size: 16px;
 }
 
-h1 {
-    font-family: 'From the Woods';
+body {
+  color: white;
+}
+
+.frame {
+  margin: auto;
+  width: 25vw;
+  background-image: url("../graphics/bg.jpg");
 }
 
 main {
-    background-image: url("../graphics/bg.jpg");
-    background-size: 800px 200px;
-    background-repeat:repeat-y;
-    background-position:justify;
-    margin: 50px 300px;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font-family: "From the Woods";
+  text-align: center;
 }
 
 footer {
+  margin: auto;
+  text-align: center;
+  background-color: #2d4823;
+}
 
-    margin: 50px 300px;
+.heading,
+.text {
+  padding: 30px;
+  text-align: center;
+}
+
+.text {
+  font-weight: bold;
+}
+
+h1 {
+  font-family: "From the Woods";
+  font-size: 80px;
+}
+
+.bubbles {
+  margin: auto;
+  text-align: center;
+}
+
+.bubbles__circle {
+  margin: auto;
+  text-align: center;
+  background-color: #4f6a13;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+
+.bubbles__mind {
+  position: relative;
+  left: 150px;
+}
+
+.bubbles__nature,
+.bubbles__community {
+  position: relative;
+  left: -150px;
+}
+
+.bubbles__nature,
+.bubbles__community,
+.bubbles__mind {
+}
+
+.bubbles__pic {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  padding-top: 10px;
+}
+
+h3 {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.bubbles p {
+  margin: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  padding: 30px;
+}
+
+p {
+  padding: 10px;
+}
+a {
+  color: white;
 }
